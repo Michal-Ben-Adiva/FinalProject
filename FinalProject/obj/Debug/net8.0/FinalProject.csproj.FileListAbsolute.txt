@@ -6,10 +6,6 @@ C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נ
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\FinalProject.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\FinalProject.pdb
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\nunit.framework.dll
-C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\nunit.framework.legacy.dll
-C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\Serilog.dll
-C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -47,3 +43,5 @@ C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נ
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\MODELS.pdb
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\Humanizer.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\FinalProject\obj\Debug\net8.0\FinalProject.sourcelink.json

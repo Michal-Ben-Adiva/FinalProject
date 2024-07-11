@@ -12,7 +12,7 @@ namespace MODELS.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int id { get; set; }
+        public long id { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
         public string gmail { get; set; }

@@ -14,6 +14,6 @@ namespace MODELS.Models
         }
         public DbSet<CV> cv { get; set; }
         public DbSet<Users> users { get; set; }
-        public DbSet<Jub> jubs { get; set; }
+        public DbSet<Job> jobs { get; set; }
     }
 }

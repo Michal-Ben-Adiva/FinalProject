@@ -17,3 +17,4 @@ C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נ
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\BL\obj\Debug\net8.0\ref\BL.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\BL\bin\Debug\net8.0\BL.runtimeconfig.json
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\BL\obj\Debug\net8.0\BL.genruntimeconfig.cache
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\BL\obj\Debug\net8.0\BL.sourcelink.json

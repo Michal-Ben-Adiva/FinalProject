@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XxTQa1oazss=",
+  "dgSpecHash": "5pR98Y2yED4=",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Documents\\לימודים\\שנה ב\\.netcore\\פרויקט דוט נט קור\\MODELS\\MODELS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",

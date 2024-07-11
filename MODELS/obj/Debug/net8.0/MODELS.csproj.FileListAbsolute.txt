@@ -12,3 +12,4 @@ C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נ
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\MODELS\obj\Debug\net8.0\ref\MODELS.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\MODELS\bin\Debug\net8.0\MODELS.runtimeconfig.json
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\MODELS\obj\Debug\net8.0\MODELS.genruntimeconfig.cache
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\MODELS\obj\Debug\net8.0\MODELS.sourcelink.json

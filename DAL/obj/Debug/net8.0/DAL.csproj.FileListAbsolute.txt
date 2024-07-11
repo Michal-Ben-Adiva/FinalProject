@@ -15,3 +15,4 @@ C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נ
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\ref\DAL.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.sourcelink.json
