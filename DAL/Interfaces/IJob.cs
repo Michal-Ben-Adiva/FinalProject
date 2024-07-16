@@ -14,5 +14,6 @@ namespace DAL.Interfaces
         Task<bool> DeleteJob(long id);
         Task<Job> GetJob(long id);
         Task<bool> UpdateJob(long id, JobDTO updatejob);
+        Task<IEnumerable<Job>> GetAllJobs(long id);
     }
 }

@@ -14,7 +14,6 @@ namespace FinalProject.Controllers
         {
             _dbuser = user;
         }
-        //[Route("api/UsersControllers/Post/{id}")]
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] UsersDTO value)
         {
@@ -25,7 +24,6 @@ namespace FinalProject.Controllers
             }
             return BadRequest();
         }
-        //[Route("api/UsersControllers/Delete/{id}")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(long id)
         {
@@ -36,18 +34,12 @@ namespace FinalProject.Controllers
             }
             return BadRequest();
         }
-        //[Route("api/UsersControllers/Get/{id}")]
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(long id)
+        public async Task<Users> Get(long id)
         {
             Users user = await _dbuser.GetUser(id);
-            if (user == null)
-            {
-                return BadRequest();
-            }
-            return Ok();
+            return user;
         }
-        //[Route("api/UsersControllers/Put/{id}")]
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(long id, [FromBody] UsersDTO value)
         {

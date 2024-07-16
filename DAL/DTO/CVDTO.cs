@@ -8,7 +8,7 @@ namespace DAL.DTO
 {
     public class CVDTO
     {
-        public long id { get; set; }
+        public long userId { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
         public string gmail { get; set; }

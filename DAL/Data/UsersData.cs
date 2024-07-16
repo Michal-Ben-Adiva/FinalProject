@@ -52,14 +52,10 @@ namespace DAL.Data
             {
                 return false;
             }
-            currentuser.id = id;
-            currentuser.userJobs = updateuser.userJobs;
-            currentuser.savedJobs = updateuser.savedJobs;
+            currentuser.userId = id;
             currentuser.password = updateuser.password;
-            currentuser.usercv = updateuser.usercv;
             currentuser.lastName = updateuser.lastName;
             currentuser.firstName = updateuser.firstName;
-
             await _Context.SaveChangesAsync();
             return true;
         }

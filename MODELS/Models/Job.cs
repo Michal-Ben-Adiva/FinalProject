@@ -14,13 +14,15 @@ namespace MODELS.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long id { get; set; }
+        public long jobId { get; set; }
         public string title { get; set; }
         public string city { get; set; }
         public string description { get; set; }
         public string requirements { get; set; }
         public string experience { get; set; }
-        public virtual ICollection<CV> applicant { get; set; }
+
+        [ForeignKey("userId")]
+        public long userId { get; set; }
 
     }
 }

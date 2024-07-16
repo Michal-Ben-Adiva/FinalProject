@@ -11,8 +11,8 @@ namespace MODELS.Models
     public class CV
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long id { get; set; }
+        [ForeignKey("userId")]
+        public long userId { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
         public string gmail { get; set; }

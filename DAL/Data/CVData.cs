@@ -54,7 +54,7 @@ namespace DAL.Data
                 return false;
             }
             currentcv.profile = updatecv.profile;
-            currentcv.id = id;
+            currentcv.userId = id;
             currentcv.education = updatecv.education;
             currentcv.skills = updatecv.skills;
             currentcv.languages = updatecv.languages;

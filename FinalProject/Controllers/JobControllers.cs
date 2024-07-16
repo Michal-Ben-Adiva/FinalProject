@@ -3,6 +3,8 @@ using DAL.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MODELS.Models;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace FinalProject.Controllers
 {
@@ -15,7 +17,7 @@ namespace FinalProject.Controllers
         {
             _dbJob = job;
         }
-        //[Route("api/JobControllers/Post/{id}")]
+
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] JobDTO value)
         {
@@ -24,7 +26,7 @@ namespace FinalProject.Controllers
                 return Ok();
             return BadRequest();
         }
-       
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(long id)
         {
@@ -33,16 +35,21 @@ namespace FinalProject.Controllers
                 return Ok();
             return BadRequest();
         }
-        
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(long id)
+        [HttpGet("job/{id}", Name = "Get")]
+        public async Task<Job> Get(long id)
         {
             Job job = await _dbJob.GetJob(id);
-            if (job == null)
-                return BadRequest();
-            return Ok();
+            return job;
+
         }
-        
+
+        [HttpGet("jobs/{id1}", Name = "GetAllJobs")]
+        public async Task<IEnumerable<Job>> GetAllJobs(long id1)
+        {
+            var jobs = await _dbJob.GetAllJobs(id1);
+            return jobs;
+        }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(long id, [FromBody] JobDTO value)
         {

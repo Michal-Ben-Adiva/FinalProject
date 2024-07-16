@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using DAL.DTO;
 using DAL.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using MODELS.Models;
 using System;
 using System.Collections.Generic;
@@ -46,6 +47,16 @@ namespace DAL.Data
             }
             return j;
         }
+        public async Task<IEnumerable<Job>> GetAllJobs(long id)
+        {
+            var c = await _Context.jobs.Where(x => x.userId == id).ToListAsync();
+            if (c == null)
+            {
+                return null; ;
+
+            }
+            return c;
+        }
         public async Task<bool> UpdateJob(long id, JobDTO updatejob)
         {
             Job currentjob = await _Context.jobs.FindAsync(id);
@@ -56,8 +67,8 @@ namespace DAL.Data
             currentjob.title = updatejob.title;
             currentjob.description = updatejob.description;
             currentjob.requirements = updatejob.requirements;
-            currentjob.id = id;
-            currentjob.applicant = updatejob.applicant;
+            currentjob.jobId = id;
+            currentjob.userId = updatejob.userId;
             currentjob.city = updatejob.city;
             currentjob.experience = updatejob.experience;
 

@@ -23,11 +23,11 @@ namespace MODELS.Migrations
 
             modelBuilder.Entity("MODELS.Models.CV", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<long>("userId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("bigint");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("userId"));
 
                     b.Property<string>("education")
                         .IsRequired()
@@ -64,18 +64,37 @@ namespace MODELS.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.HasKey("id");
+                    b.HasKey("userId");
 
                     b.ToTable("cv");
                 });
 
-            modelBuilder.Entity("MODELS.Models.Jub", b =>
+            modelBuilder.Entity("MODELS.Models.CVJobs", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<long>("cvJobsId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("bigint");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("cvJobsId"));
+
+                    b.Property<long>("jobId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("userId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("cvJobsId");
+
+                    b.ToTable("cvjobs");
+                });
+
+            modelBuilder.Entity("MODELS.Models.Job", b =>
+                {
+                    b.Property<long>("jobId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("jobId"));
 
                     b.Property<string>("city")
                         .IsRequired()
@@ -97,18 +116,21 @@ namespace MODELS.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.HasKey("id");
+                    b.Property<long>("userId")
+                        .HasColumnType("bigint");
 
-                    b.ToTable("jubs");
+                    b.HasKey("jobId");
+
+                    b.ToTable("jobs");
                 });
 
             modelBuilder.Entity("MODELS.Models.Users", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<long>("userId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("bigint");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("userId"));
 
                     b.Property<string>("firstName")
                         .IsRequired()
@@ -122,25 +144,9 @@ namespace MODELS.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("usercvid")
-                        .HasColumnType("integer");
-
-                    b.HasKey("id");
-
-                    b.HasIndex("usercvid");
+                    b.HasKey("userId");
 
                     b.ToTable("users");
-                });
-
-            modelBuilder.Entity("MODELS.Models.Users", b =>
-                {
-                    b.HasOne("MODELS.Models.CV", "usercv")
-                        .WithMany()
-                        .HasForeignKey("usercvid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("usercv");
                 });
 #pragma warning restore 612, 618
         }

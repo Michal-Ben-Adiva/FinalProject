@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿ using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
@@ -13,7 +13,7 @@ namespace MODELS.Migrations
                 name: "cv",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "integer", nullable: false)
+                    userId = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     firstName = table.Column<string>(type: "text", nullable: false),
                     lastName = table.Column<string>(type: "text", nullable: false),
@@ -27,64 +27,70 @@ namespace MODELS.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_cv", x => x.id);
+                    table.PrimaryKey("PK_cv", x => x.userId);
                 });
 
             migrationBuilder.CreateTable(
-                name: "jubs",
+                name: "cvjobs",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "integer", nullable: false)
+                    cvJobsId = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    userId = table.Column<long>(type: "bigint", nullable: false),
+                    jobId = table.Column<long>(type: "bigint", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_cvjobs", x => x.cvJobsId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "jobs",
+                columns: table => new
+                {
+                    jobId = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     title = table.Column<string>(type: "text", nullable: false),
                     city = table.Column<string>(type: "text", nullable: false),
                     description = table.Column<string>(type: "text", nullable: false),
                     requirements = table.Column<string>(type: "text", nullable: false),
-                    experience = table.Column<string>(type: "text", nullable: false)
+                    experience = table.Column<string>(type: "text", nullable: false),
+                    userId = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_jubs", x => x.id);
+                    table.PrimaryKey("PK_jobs", x => x.jobId);
                 });
 
             migrationBuilder.CreateTable(
                 name: "users",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "integer", nullable: false)
+                    userId = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     password = table.Column<string>(type: "text", nullable: false),
                     firstName = table.Column<string>(type: "text", nullable: false),
-                    lastName = table.Column<string>(type: "text", nullable: false),
-                    usercvid = table.Column<int>(type: "integer", nullable: false)
+                    lastName = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_users", x => x.id);
-                    table.ForeignKey(
-                        name: "FK_users_cv_usercvid",
-                        column: x => x.usercvid,
-                        principalTable: "cv",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
+                    table.PrimaryKey("PK_users", x => x.userId);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_users_usercvid",
-                table: "users",
-                column: "usercvid");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "jubs");
+                name: "cv");
+
+            migrationBuilder.DropTable(
+                name: "cvjobs");
+
+            migrationBuilder.DropTable(
+                name: "jobs");
 
             migrationBuilder.DropTable(
                 name: "users");
-
-            migrationBuilder.DropTable(
-                name: "cv");
         }
     }
 }

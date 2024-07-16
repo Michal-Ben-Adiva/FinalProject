@@ -33,12 +33,10 @@ namespace FinalProject.Controllers
             return BadRequest();
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(long id)
+        public async Task<CV> Get(long id)
         {
             CV cv = await _dbCV.GetCV(id);
-            if (cv == null)
-                return BadRequest();
-            return Ok(cv);
+                return cv;
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(long id, [FromBody] CVDTO value)

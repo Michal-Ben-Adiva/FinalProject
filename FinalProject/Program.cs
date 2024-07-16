@@ -30,6 +30,7 @@ builder.Services.AddDbContext<ModelsContext>(options => options.UseNpgsql(builde
 builder.Services.AddScoped<ICV, CVData>();
 builder.Services.AddScoped<IUsers, UsersData>();
 builder.Services.AddScoped<IJob, JobData>();
+builder.Services.AddScoped<ICVJobs, CVJobsData>();
 
 var app = builder.Build();
 
