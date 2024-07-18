@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+
+
 
 namespace MODELS.Models
 {
@@ -16,5 +19,6 @@ namespace MODELS.Models
         public DbSet<Users> users { get; set; }
         public DbSet<Job> jobs { get; set; }
         public DbSet<CVJobs> cvjobs { get; set; }
+
     }
 }

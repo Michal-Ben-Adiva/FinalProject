@@ -1,4 +1,5 @@
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\bin\Debug\net8.0\DAL.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\bin\Debug\net8.0\DAL.pdb
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\bin\Debug\net8.0\MODELS.dll
@@ -8,13 +9,12 @@ C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נ
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\EFCoreNpgsqlNetTopologySuite.cs
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.sourcelink.json
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.pdb
-C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\ref\DAL.dll
-C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
-C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\DAL.sourcelink.json
-C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs
-C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\EFCoreNpgsqlNetTopologySuite.cs
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\DAL\obj\Debug\net8.0\ref\DAL.dll

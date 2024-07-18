@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MODELS.Migrations
 {
     [DbContext(typeof(ModelsContext))]
-    [Migration("20240712021555_InitialCreate")]
+    [Migration("20240717164441_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -137,6 +137,9 @@ namespace MODELS.Migrations
                     b.Property<string>("firstName")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<long>("id")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("lastName")
                         .IsRequired()

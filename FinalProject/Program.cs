@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using MODELS.Models;
 using DAL.Data;
 using DAL.Interfaces;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using FinalProject.Middleware;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,20 +34,88 @@ builder.Services.AddScoped<IUsers, UsersData>();
 builder.Services.AddScoped<IJob, JobData>();
 builder.Services.AddScoped<ICVJobs, CVJobsData>();
 
+builder.Services.AddTransient<IdCheckMiddleware>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
+
+//Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+
 app.UseCors(myCors);
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseMiddleware<IdCheckMiddleware>();
+
 app.MapControllers();
 
 app.Run();
+
+//using Microsoft.EntityFrameworkCore;
+//using MODELS.Models;
+//using DAL.Data;
+//using DAL.Interfaces;
+//using Microsoft.Extensions.DependencyInjection.Extensions;
+//using FinalProject.Middleware;
+//using Microsoft.AspNetCore.Builder;
+//using Microsoft.AspNetCore.Hosting;
+//using Microsoft.Extensions.Hosting;
+
+//var builder = WebApplication.CreateBuilder(args);
+
+//// Add services to the container.
+//string myCors = "_myCors";
+//builder.Services.AddControllers();
+//builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddSwaggerGen();
+//builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+//builder.Services.AddCors(op =>
+//{
+//    op.AddPolicy(myCors,
+//        builder =>
+//        {
+//            builder.WithOrigins("*")
+//            .AllowAnyHeader()
+//            .AllowAnyMethod();
+//        });
+//});
+
+//// Connection string
+//builder.Services.AddDbContext<ModelsContext>(options =>
+//    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultDataBase")));
+//builder.Services.AddScoped<ICV, CVData>();
+//builder.Services.AddScoped<IUsers, UsersData>();
+//builder.Services.AddScoped<IJob, JobData>();
+//builder.Services.AddScoped<ICVJobs, CVJobsData>();
+
+//// Add IdCheckMiddleware
+//builder.Services.AddTransient<IdCheckMiddleware>();
+
+//var app = builder.Build();
+
+//// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+
+//app.UseCors(myCors);
+//app.UseHttpsRedirection();
+//app.UseAuthorization();
+
+//app.UseMiddleware<IdCheckMiddleware>();
+
+//app.MapControllers();
+
+//app.Run();
+

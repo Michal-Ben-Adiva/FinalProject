@@ -18,5 +18,7 @@ namespace MODELS.Models
 
         [ForeignKey("jobId")]
         public long jobId { get; set; }
+
+
     }
 }

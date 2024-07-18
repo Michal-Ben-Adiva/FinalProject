@@ -3,27 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\finalproject\\controllers\\jobcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:controllers\\jobcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\finalproject\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\dal\\data\\cvjobsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\finalproject\\middleware\\idcheckmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:middleware\\idcheckmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\dal\\data\\jobdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6616EA5E-4571-42E5-8BC2-83638D1FC75A}|..\\MODELS\\MODELS.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\models\\migrations\\20240717164441_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\dal\\interfaces\\ijob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\finalproject\\controllers\\cvjobscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:controllers\\cvjobscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\dal\\data\\cvdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\dal\\interfaces\\icvjobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,93 +37,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IJob.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Interfaces\\IJob.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\IJob.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Interfaces\\IJob.cs",
-              "RelativeToolTip": "..\\DAL\\Interfaces\\IJob.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T14:04:24.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JobData.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Data\\JobData.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Data\\JobData.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Data\\JobData.cs",
-              "RelativeToolTip": "..\\DAL\\Data\\JobData.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwDEAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T13:54:45.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JobControllers.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Controllers\\JobControllers.cs",
-              "RelativeDocumentMoniker": "Controllers\\JobControllers.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Controllers\\JobControllers.cs",
-              "RelativeToolTip": "Controllers\\JobControllers.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowBIAAAAJAAAA",
+              "Title": "UsersControllers.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Controllers\\UsersControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersControllers.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Controllers\\UsersControllers.cs",
+              "RelativeToolTip": "Controllers\\UsersControllers.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T13:46:33.7Z",
+              "WhenOpened": "2024-07-18T02:50:36.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CVJobsControllers.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Controllers\\CVJobsControllers.cs",
-              "RelativeDocumentMoniker": "Controllers\\CVJobsControllers.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Controllers\\CVJobsControllers.cs",
-              "RelativeToolTip": "Controllers\\CVJobsControllers.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAmwCkAAAAFAAAA",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T12:53:24.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICVJobs.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Interfaces\\ICVJobs.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\ICVJobs.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Interfaces\\ICVJobs.cs",
-              "RelativeToolTip": "..\\DAL\\Interfaces\\ICVJobs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T12:52:55.106Z",
+              "WhenOpened": "2024-07-17T17:52:22.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CVJobsData.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Data\\CVJobsData.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Data\\CVJobsData.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Data\\CVJobsData.cs",
-              "RelativeToolTip": "..\\DAL\\Data\\CVJobsData.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwAkAAAAAAAAA",
+              "Title": "IDCheckMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Middleware\\IDCheckMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\IDCheckMiddleware.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Middleware\\IDCheckMiddleware.cs",
+              "RelativeToolTip": "Middleware\\IDCheckMiddleware.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAgwAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T12:51:31.848Z",
+              "WhenOpened": "2024-07-17T17:56:29.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CVData.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Data\\CVData.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Data\\CVData.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Data\\CVData.cs",
-              "RelativeToolTip": "..\\DAL\\Data\\CVData.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwCoAAAAaAAAA",
+              "DocumentIndex": 2,
+              "Title": "20240717164441_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\MODELS\\Migrations\\20240717164441_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Migrations\\20240717164441_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\MODELS\\Migrations\\20240717164441_InitialCreate.cs",
+              "RelativeToolTip": "..\\MODELS\\Migrations\\20240717164441_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T23:59:37.326Z",
+              "WhenOpened": "2024-07-17T16:44:41.745Z",
               "EditorCaption": ""
             }
           ]

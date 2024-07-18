@@ -136,6 +136,9 @@ namespace MODELS.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<long>("id")
+                        .HasColumnType("bigint");
+
                     b.Property<string>("lastName")
                         .IsRequired()
                         .HasColumnType("text");
