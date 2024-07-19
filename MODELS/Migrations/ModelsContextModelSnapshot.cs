@@ -139,6 +139,9 @@ namespace MODELS.Migrations
                     b.Property<long>("id")
                         .HasColumnType("bigint");
 
+                    b.Property<int>("isAdmin")
+                        .HasColumnType("integer");
+
                     b.Property<string>("lastName")
                         .IsRequired()
                         .HasColumnType("text");

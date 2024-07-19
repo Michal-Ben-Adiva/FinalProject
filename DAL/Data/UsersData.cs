@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using DAL.DTO;
 using DAL.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using MODELS.Models;
 using System;
 using System.Collections.Generic;
@@ -45,6 +46,16 @@ namespace DAL.Data
             }
             return u;
         }
+        public async Task<IEnumerable<Users>> GetAllUsers(long id)
+        {
+            var u = await _Context.users.ToListAsync();
+            if (u == null)
+            {
+                return null; ;
+
+            }
+            return u;
+        }
         public async Task<bool> UpdateUser(long id, UsersDTO updateuser)
         {
             Users currentuser = await _Context.users.FindAsync(id);
@@ -57,6 +68,7 @@ namespace DAL.Data
             currentuser.password = updateuser.password;
             currentuser.lastName = updateuser.lastName;
             currentuser.firstName = updateuser.firstName;
+            currentuser.isAdmin = updateuser.isAdmin;
             await _Context.SaveChangesAsync();
             return true;
         }

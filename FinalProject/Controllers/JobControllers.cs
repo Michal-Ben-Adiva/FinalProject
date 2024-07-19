@@ -35,18 +35,25 @@ namespace FinalProject.Controllers
                 return Ok();
             return BadRequest();
         }
-        [HttpGet("job/{id}", Name = "Get")]
-        public async Task<Job> Get(long id)
+        [HttpGet("job/{id}", Name = "GetJob")]
+        public async Task<Job> GetJob(long id)
         {
             Job job = await _dbJob.GetJob(id);
             return job;
 
         }
 
-        [HttpGet("jobs/{id1}", Name = "GetAllJobs")]
-        public async Task<IEnumerable<Job>> GetAllJobs(long id1)
+        [HttpGet("AllJobsById/{id}", Name = "GetAllJobsById")]
+        public async Task<IEnumerable<Job>> GetAllJobsById(long id)
         {
-            var jobs = await _dbJob.GetAllJobs(id1);
+            var jobs = await _dbJob.GetAllJobsById(id);
+            return jobs;
+        }
+
+        [HttpGet("AllJobs")]
+        public async Task<IEnumerable<Job>> GetAllJobs()
+        {
+            var jobs = await _dbJob.GetAllJobs();
             return jobs;
         }
 

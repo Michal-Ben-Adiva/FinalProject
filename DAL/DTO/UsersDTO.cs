@@ -17,5 +17,7 @@ namespace DAL.DTO
         public string password { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
+        public int isAdmin { get; set; }
+
     }
 }

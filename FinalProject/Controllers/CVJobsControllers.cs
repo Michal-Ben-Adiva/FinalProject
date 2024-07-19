@@ -35,7 +35,7 @@ namespace FinalProject.Controllers
         [HttpGet("{id}")]
         public async Task<IEnumerable<CVJobs>> Get(long id)
         {
-            var cv = await _dbCV.GetCVJobs(id);                        
+            var cv = await _dbCV.GetCVJobs(id);
             return cv;
         }
 

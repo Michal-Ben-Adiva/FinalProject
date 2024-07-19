@@ -2,6 +2,7 @@
 using DAL.DTO;
 using DAL.Interfaces;
 using DAL.Profiles;
+using Microsoft.EntityFrameworkCore;
 using MODELS.Models;
 using System;
 using System.Collections.Generic;
@@ -37,7 +38,7 @@ namespace DAL.Data
             await _Context.SaveChangesAsync();
             return true;
         }
-        public async Task<CV> GetCV(long id)
+        public async Task<CV> GetCVByID(long id)
         {
             CV c = await _Context.cv.FindAsync(id);
             if (c == null)
@@ -46,6 +47,17 @@ namespace DAL.Data
             }
             return c;
         }
+        public async Task<IEnumerable<CV>> GetAllCV()
+        {
+            var c = await _Context.cv.ToListAsync();
+            if (c == null)
+            {
+                return null;
+            }
+            return c;
+        }
+
+
         public async Task<bool> UpdateCV(long id, CVDTO updatecv)
         {
             CV currentcv = await _Context.cv.FindAsync(id);

@@ -71,7 +71,8 @@ namespace MODELS.Migrations
                     id = table.Column<long>(type: "bigint", nullable: false),
                     password = table.Column<string>(type: "text", nullable: false),
                     firstName = table.Column<string>(type: "text", nullable: false),
-                    lastName = table.Column<string>(type: "text", nullable: false)
+                    lastName = table.Column<string>(type: "text", nullable: false),
+                    isAdmin = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {

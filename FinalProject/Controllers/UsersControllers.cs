@@ -34,12 +34,20 @@ namespace FinalProject.Controllers
             }
             return BadRequest();
         }
-        [HttpGet("{id}")]
-        public async Task<Users> Get(long id)
+        [HttpGet("user/{id}" , Name = "GetUser")]
+        public async Task<Users> GetUser(long id)
         {
             Users user = await _dbuser.GetUser(id);
             return user;
         }
+
+        [HttpGet("AllUsers/{id}", Name = "GetAllUsers")]
+        public async Task<IEnumerable<Users>> GetAllUsers(long id)
+        {
+            var users = await _dbuser.GetAllUsers(id);
+            return users;
+        }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(long id, [FromBody] UsersDTO value)
         {

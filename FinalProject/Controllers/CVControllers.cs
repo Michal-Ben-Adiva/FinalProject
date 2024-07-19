@@ -25,18 +25,25 @@ namespace FinalProject.Controllers
             return BadRequest();
         }
         [HttpDelete("{id}")]
-        public async Task<IActionResult>Delete(long id)
+        public async Task<IActionResult> Delete(long id)
         {
             bool delete = await _dbCV.DeleteCV(id);
             if (delete == true)
                 return Ok();
             return BadRequest();
         }
-        [HttpGet("{id}")]
-        public async Task<CV> Get(long id)
+        [HttpGet("CV/{id}")]
+        public async Task<CV> GetCVByID(long id)
         {
-            CV cv = await _dbCV.GetCV(id);
-                return cv;
+            CV cv = await _dbCV.GetCVByID(id);
+            return cv;
+        }
+
+        [HttpGet("AllCV")]
+        public async Task<IEnumerable<CV>> GetAllCV()
+        {
+            var cv = await _dbCV.GetAllCV();
+            return cv;
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(long id, [FromBody] CVDTO value)
