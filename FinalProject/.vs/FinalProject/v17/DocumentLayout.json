@@ -1,28 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\finalproject\\middleware\\allowingaccessmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:middleware\\allowingaccessmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\data\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\finalproject\\middleware\\idcheckmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:middleware\\idcheckmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B56D2FC2-1A78-4681-A679-32070847966A}|..\\BL\\BL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\bl\\middlewares\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\finalproject\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\dal\\data\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\dal\\interfaces\\iusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,8 +20,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersData.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\UsersData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\UsersData.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\UsersData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\UsersData.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAcwGQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:21:51.759Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -44,80 +45,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAswEAAAAAAAAAA",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAIwNIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T01:43:08.068Z",
+              "WhenOpened": "2024-07-24T13:52:24.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IDCheckMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Middleware\\IDCheckMiddleware.cs",
-              "RelativeDocumentMoniker": "Middleware\\IDCheckMiddleware.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Middleware\\IDCheckMiddleware.cs",
-              "RelativeToolTip": "Middleware\\IDCheckMiddleware.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAowIYAAAAAAAAA",
+              "Title": "TokenValidationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\BL\\Middlewares\\TokenValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\BL\\Middlewares\\TokenValidationMiddleware.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\BL\\Middlewares\\TokenValidationMiddleware.cs",
+              "RelativeToolTip": "..\\BL\\Middlewares\\TokenValidationMiddleware.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwBcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T00:58:22.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsersControllers.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Controllers\\UsersControllers.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersControllers.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Controllers\\UsersControllers.cs",
-              "RelativeToolTip": "Controllers\\UsersControllers.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAACkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T00:52:00.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUsers.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Interfaces\\IUsers.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\IUsers.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Interfaces\\IUsers.cs",
-              "RelativeToolTip": "..\\DAL\\Interfaces\\IUsers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T00:51:17.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersData.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Data\\UsersData.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Data\\UsersData.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\DAL\\Data\\UsersData.cs",
-              "RelativeToolTip": "..\\DAL\\Data\\UsersData.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAowEwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T00:49:59.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AllowingAccessMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Middleware\\AllowingAccessMiddleware.cs",
-              "RelativeDocumentMoniker": "Middleware\\AllowingAccessMiddleware.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D3\u05D5\u05D8 \u05E0\u05D8 \u05E7\u05D5\u05E8\\FinalProject\\Middleware\\AllowingAccessMiddleware.cs",
-              "RelativeToolTip": "Middleware\\AllowingAccessMiddleware.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBgAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T00:41:23.323Z",
+              "WhenOpened": "2024-07-24T13:49:04.312Z",
               "EditorCaption": ""
             }
           ]

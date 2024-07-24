@@ -4,10 +4,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MODELS.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace FinalProject.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class JobControllers : ControllerBase
@@ -17,7 +19,7 @@ namespace FinalProject.Controllers
         {
             _dbJob = job;
         }
-
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] JobDTO value)
         {
@@ -26,7 +28,7 @@ namespace FinalProject.Controllers
                 return Ok();
             return BadRequest();
         }
-
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(long id)
         {
@@ -35,6 +37,7 @@ namespace FinalProject.Controllers
                 return Ok();
             return BadRequest();
         }
+        [Authorize]
         [HttpGet("job/{id}", Name = "GetJob")]
         public async Task<Job> GetJob(long id)
         {
@@ -42,21 +45,21 @@ namespace FinalProject.Controllers
             return job;
 
         }
-
+        [Authorize]
         [HttpGet("AllJobsById/{id}", Name = "GetAllJobsById")]
         public async Task<IEnumerable<Job>> GetAllJobsById(long id)
         {
             var jobs = await _dbJob.GetAllJobsById(id);
             return jobs;
         }
-
+        [Authorize]
         [HttpGet("AllJobs")]
         public async Task<IEnumerable<Job>> GetAllJobs()
         {
             var jobs = await _dbJob.GetAllJobs();
             return jobs;
         }
-
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(long id, [FromBody] JobDTO value)
         {

@@ -15,3 +15,18 @@ C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נ
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\MODELS\obj\Debug\net8.0\MODELS.pdb
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\MODELS\obj\Debug\net8.0\MODELS.genruntimeconfig.cache
 C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\פרויקט דוט נט קור\MODELS\obj\Debug\net8.0\ref\MODELS.dll
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\bin\Debug\net8.0\MODELS.deps.json
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\bin\Debug\net8.0\MODELS.runtimeconfig.json
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\bin\Debug\net8.0\MODELS.dll
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\bin\Debug\net8.0\MODELS.pdb
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\MODELS.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfo.cs
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\MODELS.sourcelink.json
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\MODELS.dll
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\refint\MODELS.dll
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\MODELS.pdb
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\MODELS.genruntimeconfig.cache
+C:\Users\DELL\Documents\לימודים\שנה ב\.netcore\New folder\MODELS\obj\Debug\net8.0\ref\MODELS.dll

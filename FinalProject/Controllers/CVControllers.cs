@@ -1,11 +1,13 @@
 ﻿using DAL.DTO;
 using DAL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MODELS.Models;
 
 namespace FinalProject.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class CVControllers : ControllerBase
@@ -15,7 +17,7 @@ namespace FinalProject.Controllers
         {
             _dbCV = cv;
         }
-
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CVDTO value)
         {
@@ -24,6 +26,7 @@ namespace FinalProject.Controllers
                 return Ok();
             return BadRequest();
         }
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(long id)
         {
@@ -32,19 +35,21 @@ namespace FinalProject.Controllers
                 return Ok();
             return BadRequest();
         }
+        [Authorize]
         [HttpGet("CV/{id}")]
         public async Task<CV> GetCVByID(long id)
         {
             CV cv = await _dbCV.GetCVByID(id);
             return cv;
         }
-
+        [Authorize]
         [HttpGet("AllCV")]
         public async Task<IEnumerable<CV>> GetAllCV()
         {
             var cv = await _dbCV.GetAllCV();
             return cv;
         }
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(long id, [FromBody] CVDTO value)
         {
