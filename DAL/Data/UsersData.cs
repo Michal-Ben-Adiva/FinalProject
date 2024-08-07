@@ -22,7 +22,7 @@ namespace DAL.Data
         }
         public async Task<bool> CreateUser(UsersDTO u)
         {
-            if (!IsValidIsraeliId(u.id))
+            if (!IsValidIsraeliId(u.userId))
             {
                 return false;
             }
@@ -30,7 +30,7 @@ namespace DAL.Data
             await _Context.SaveChangesAsync();
             return true;
         }
-        public async Task<bool> DeleteUser(long id)
+        public async Task<bool> DeleteUser(string id)
         {
             Users u = await _Context.users.FindAsync(id);
             if (u == null)
@@ -41,7 +41,7 @@ namespace DAL.Data
             await _Context.SaveChangesAsync();
             return true;
         }
-        public async Task<Users> GetUser(long id)
+        public async Task<Users> GetUser(string id)
         {
             Users u = await _Context.users.FindAsync(id);
             if (u == null)
@@ -50,7 +50,7 @@ namespace DAL.Data
             }
             return u;
         }
-        public async Task<IEnumerable<Users>> GetAllUsers(long id)
+        public async Task<IEnumerable<Users>> GetAllUsers(string id)
         {
             var u = await _Context.users.ToListAsync();
             if (u == null)
@@ -60,14 +60,14 @@ namespace DAL.Data
             }
             return u;
         }
-        public async Task<bool> UpdateUser(long id, UsersDTO updateuser)
+        public async Task<bool> UpdateUser(string id, UsersDTO updateuser)
         {
             Users currentuser = await _Context.users.FindAsync(id);
             if (currentuser == null)
             {
                 return false;
             }
-            currentuser.id = updateuser.userId; ;
+            //currentuser.id = updateuser.userId; ;
             currentuser.userId = id;
             currentuser.password = updateuser.password;
             currentuser.lastName = updateuser.lastName;
@@ -76,35 +76,32 @@ namespace DAL.Data
             await _Context.SaveChangesAsync();
             return true;
         }
-        private bool IsValidIsraeliId(long id)
+        private bool IsValidIsraeliId(string id)
         {
-            if (id < 100000000 || id > 999999999)
+            if (id.Length != 9 || !long.TryParse(id, out _))
             {
                 return false;
             }
 
             int sum = 0;
-            long temp = id;
-            for (int i = 8; i >= 0; i--)
+            for (int i = 0; i < 9; i++)
             {
-                int digit = (int)(temp % 10);
-                temp /= 10;
-
+                int digit = id[i] - '0';
                 if (i % 2 == 1)
                 {
                     digit *= 2;
                 }
-
                 if (digit > 9)
                 {
                     digit -= 9;
                 }
-
                 sum += digit;
             }
 
             return sum % 10 == 0;
         }
+
+
     }
 
 }

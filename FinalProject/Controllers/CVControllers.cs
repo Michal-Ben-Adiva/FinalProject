@@ -27,19 +27,19 @@ namespace FinalProject.Controllers
             return BadRequest();
         }
         [Authorize]
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(long id)
+        [HttpDelete("{userId}")]
+        public async Task<IActionResult> Delete(string userId)
         {
-            bool delete = await _dbCV.DeleteCV(id);
+            bool delete = await _dbCV.DeleteCV(userId);
             if (delete == true)
                 return Ok();
             return BadRequest();
         }
         [Authorize]
-        [HttpGet("CV/{id}")]
-        public async Task<CV> GetCVByID(long id)
+        [HttpGet("CV/{userId}")]
+        public async Task<CV> GetCVByID(string userId)
         {
-            CV cv = await _dbCV.GetCVByID(id);
+            CV cv = await _dbCV.GetCVByID(userId);
             return cv;
         }
         [Authorize]
@@ -50,10 +50,10 @@ namespace FinalProject.Controllers
             return cv;
         }
         [Authorize]
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Put(long id, [FromBody] CVDTO value)
+        [HttpPut("{userId}")]
+        public async Task<IActionResult> Put(string userId, [FromBody] CVDTO value)
         {
-            bool update = await _dbCV.UpdateCV(id, value);
+            bool update = await _dbCV.UpdateCV(userId, value);
             if (update)
                 return Ok();
             return BadRequest();

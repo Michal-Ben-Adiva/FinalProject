@@ -16,7 +16,7 @@ namespace FinalProject.Controllers
         {
             _dbuser = user;
         }
-        [Authorize]
+        //[Authorize]
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] UsersDTO value)
         {
@@ -28,10 +28,10 @@ namespace FinalProject.Controllers
             return BadRequest();
         }
         [Authorize]
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(long id)
+        [HttpDelete("{userId}")]
+        public async Task<IActionResult> Delete(string userId)
         {
-            bool delete = await _dbuser.DeleteUser(id);
+            bool delete = await _dbuser.DeleteUser(userId);
             if (delete)
             {
                 return Ok();
@@ -39,24 +39,24 @@ namespace FinalProject.Controllers
             return BadRequest();
         }
         [Authorize]
-        [HttpGet("user/{id}" , Name = "GetUser")]
-        public async Task<Users> GetUser(long id)
+        [HttpGet("user/{userId}", Name = "GetUser")]
+        public async Task<Users> GetUser(string userId)
         {
-            Users user = await _dbuser.GetUser(id);
+            Users user = await _dbuser.GetUser(userId);
             return user;
         }
         [Authorize]
-        [HttpGet("AllUsers/{id}", Name = "GetAllUsers")]
-        public async Task<IEnumerable<Users>> GetAllUsers(long id)
+        [HttpGet("AllUsers/{userId}", Name = "GetAllUsers")]
+        public async Task<IEnumerable<Users>> GetAllUsers(string userId)
         {
-            var users = await _dbuser.GetAllUsers(id);
+            var users = await _dbuser.GetAllUsers(userId);
             return users;
         }
         [Authorize]
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Put(long id, [FromBody] UsersDTO value)
+        [HttpPut("{userId}")]
+        public async Task<IActionResult> Put(string userId, [FromBody] UsersDTO value)
         {
-            bool update = await _dbuser.UpdateUser(id, value);
+            bool update = await _dbuser.UpdateUser(userId, value);
             if (update)
             {
                 return Ok();

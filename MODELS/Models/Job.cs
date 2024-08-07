@@ -22,7 +22,7 @@ namespace MODELS.Models
         public string experience { get; set; }
 
         [ForeignKey("userId")]
-        public long userId { get; set; }
+        public string userId { get; set; }
 
     }
 }

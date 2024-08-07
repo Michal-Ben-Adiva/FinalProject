@@ -12,8 +12,8 @@ namespace DAL.DTO
     public class UsersDTO
     {
 
-        public long id { get; set; }
-        public long userId { get; set; }
+        //public long id { get; set; }
+        public string userId { get; set; }
         public string password { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }

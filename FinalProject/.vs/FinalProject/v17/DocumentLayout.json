@@ -3,14 +3,78 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\data\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\finalproject\\controllers\\cvcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:controllers\\cvcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B56D2FC2-1A78-4681-A679-32070847966A}|..\\BL\\BL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\bl\\middlewares\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6616EA5E-4571-42E5-8BC2-83638D1FC75A}|..\\MODELS\\MODELS.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\models\\models\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\finalproject\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\finalproject\\controllers\\logincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:controllers\\logincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\finalproject\\controllers\\jobcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:controllers\\jobcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56D2FC2-1A78-4681-A679-32070847966A}|..\\BL\\BL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\bl\\interfaces\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56D2FC2-1A78-4681-A679-32070847966A}|..\\BL\\BL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\bl\\data\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Migrations\\20240807012335_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76DAB998-0937-4781-98A5-842AC5127FF0}|FinalProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\data\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\interfaces\\iusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\data\\jobdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\interfaces\\ijob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\data\\cvdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\interfaces\\icv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\dto\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\dto\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\dto\\cvjobsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F857EFD8-A6CB-40DE-9E2B-531EC0B62BE2}|..\\DAL\\DAL.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\dal\\dto\\cvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6616EA5E-4571-42E5-8BC2-83638D1FC75A}|..\\MODELS\\MODELS.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\models\\models\\cvjobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6616EA5E-4571-42E5-8BC2-83638D1FC75A}|..\\MODELS\\MODELS.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\models\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6616EA5E-4571-42E5-8BC2-83638D1FC75A}|..\\MODELS\\MODELS.csproj|c:\\users\\dell\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\new folder\\models\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Migrations\\20240807003907_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,21 +84,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersData.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\UsersData.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Data\\UsersData.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\UsersData.cs",
-              "RelativeToolTip": "..\\DAL\\Data\\UsersData.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAcwGQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T14:21:51.759Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -45,28 +96,305 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAN0AAAAAAAAAAAAIwNIAAAASAAAA",
+              "DocumentIndex": 7,
+              "Title": "20240807012335_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Migrations\\20240807012335_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Migrations\\20240807012335_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Migrations\\20240807012335_InitialCreate.cs",
+              "RelativeToolTip": "..\\MODELS\\Migrations\\20240807012335_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T13:52:24.544Z",
+              "WhenOpened": "2024-08-07T01:23:36.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CVControllers.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Controllers\\CVControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\CVControllers.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Controllers\\CVControllers.cs",
+              "RelativeToolTip": "Controllers\\CVControllers.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:15:51.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUsers.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Interfaces\\IUsers.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\IUsers.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Interfaces\\IUsers.cs",
+              "RelativeToolTip": "..\\DAL\\Interfaces\\IUsers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:15:21.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IJob.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Interfaces\\IJob.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\IJob.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Interfaces\\IJob.cs",
+              "RelativeToolTip": "..\\DAL\\Interfaces\\IJob.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:14:59.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICV.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Interfaces\\ICV.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\ICV.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Interfaces\\ICV.cs",
+              "RelativeToolTip": "..\\DAL\\Interfaces\\ICV.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:11:03.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JobData.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\JobData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\JobData.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\JobData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\JobData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:05:59.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogInControllers.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Controllers\\LogInControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\LogInControllers.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Controllers\\LogInControllers.cs",
+              "RelativeToolTip": "Controllers\\LogInControllers.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwB0AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T23:51:07.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersControllers.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Controllers\\UsersControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersControllers.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Controllers\\UsersControllers.cs",
+              "RelativeToolTip": "Controllers\\UsersControllers.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwDcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:45:30.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ILogIn.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\BL\\Interfaces\\ILogIn.cs",
+              "RelativeDocumentMoniker": "..\\BL\\Interfaces\\ILogIn.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\BL\\Interfaces\\ILogIn.cs",
+              "RelativeToolTip": "..\\BL\\Interfaces\\ILogIn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T23:46:09.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\BL\\Data\\LogIn.cs",
+              "RelativeDocumentMoniker": "..\\BL\\Data\\LogIn.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\BL\\Data\\LogIn.cs",
+              "RelativeToolTip": "..\\BL\\Data\\LogIn.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T23:45:40.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TokenValidationMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\BL\\Middlewares\\TokenValidationMiddleware.cs",
-              "RelativeDocumentMoniker": "..\\BL\\Middlewares\\TokenValidationMiddleware.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\BL\\Middlewares\\TokenValidationMiddleware.cs",
-              "RelativeToolTip": "..\\BL\\Middlewares\\TokenValidationMiddleware.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwBcAAAATAAAA",
+              "Title": "CV.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Models\\CV.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\CV.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Models\\CV.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\CV.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T13:49:04.312Z",
+              "WhenOpened": "2024-08-07T01:02:48.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobControllers.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Controllers\\JobControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobControllers.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Controllers\\JobControllers.cs",
+              "RelativeToolTip": "Controllers\\JobControllers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:16:52.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\FinalProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAswGoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T23:55:05.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JobDTO.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\DTO\\JobDTO.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DTO\\JobDTO.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\DTO\\JobDTO.cs",
+              "RelativeToolTip": "..\\DAL\\DTO\\JobDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:03:25.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CVJobsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\DTO\\CVJobsDTO.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DTO\\CVJobsDTO.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\DTO\\CVJobsDTO.cs",
+              "RelativeToolTip": "..\\DAL\\DTO\\CVJobsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:03:18.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CVDTO.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\DTO\\CVDTO.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DTO\\CVDTO.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\DTO\\CVDTO.cs",
+              "RelativeToolTip": "..\\DAL\\DTO\\CVDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:03:12.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CVJobs.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Models\\CVJobs.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\CVJobs.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Models\\CVJobs.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\CVJobs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:02:38.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\Job.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Models\\Job.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\Job.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:02:16.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240807003907_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Migrations\\20240807003907_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Migrations\\20240807003907_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Migrations\\20240807003907_InitialCreate.cs",
+              "RelativeToolTip": "..\\MODELS\\Migrations\\20240807003907_InitialCreate.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:39:07.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\DTO\\UsersDTO.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DTO\\UsersDTO.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\DTO\\UsersDTO.cs",
+              "RelativeToolTip": "..\\DAL\\DTO\\UsersDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:32:09.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersData.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\UsersData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\UsersData.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\UsersData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\UsersData.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:31:28.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CVData.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\CVData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\CVData.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\DAL\\Data\\CVData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\CVData.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:29:01.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\.netcore\\New folder\\MODELS\\Models\\Users.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:22:55.961Z",
               "EditorCaption": ""
             }
           ]

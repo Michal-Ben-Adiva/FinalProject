@@ -13,8 +13,7 @@ namespace MODELS.Migrations
                 name: "cv",
                 columns: table => new
                 {
-                    userId = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    userId = table.Column<string>(type: "text", nullable: false),
                     firstName = table.Column<string>(type: "text", nullable: false),
                     lastName = table.Column<string>(type: "text", nullable: false),
                     gmail = table.Column<string>(type: "text", nullable: false),
@@ -36,7 +35,7 @@ namespace MODELS.Migrations
                 {
                     cvJobsId = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    userId = table.Column<long>(type: "bigint", nullable: false),
+                    userId = table.Column<string>(type: "text", nullable: false),
                     jobId = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
@@ -55,7 +54,7 @@ namespace MODELS.Migrations
                     description = table.Column<string>(type: "text", nullable: false),
                     requirements = table.Column<string>(type: "text", nullable: false),
                     experience = table.Column<string>(type: "text", nullable: false),
-                    userId = table.Column<long>(type: "bigint", nullable: false)
+                    userId = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -66,9 +65,7 @@ namespace MODELS.Migrations
                 name: "users",
                 columns: table => new
                 {
-                    userId = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    id = table.Column<long>(type: "bigint", nullable: false),
+                    userId = table.Column<string>(type: "text", nullable: false),
                     password = table.Column<string>(type: "text", nullable: false),
                     firstName = table.Column<string>(type: "text", nullable: false),
                     lastName = table.Column<string>(type: "text", nullable: false),

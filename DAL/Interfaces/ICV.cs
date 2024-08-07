@@ -12,9 +12,9 @@ namespace DAL.Interfaces
     public interface ICV
     {
         Task<bool> CreateCV(CVDTO c);
-        Task<bool> DeleteCV(long id);
-        Task<CV> GetCVByID(long id);
+        Task<bool> DeleteCV(string id);
+        Task<CV> GetCVByID(string id);
         Task<IEnumerable<CV>> GetAllCV();
-        Task<bool> UpdateCV(long id, CVDTO updatecv);
+        Task<bool> UpdateCV(string id, CVDTO updatecv);
     }
 }

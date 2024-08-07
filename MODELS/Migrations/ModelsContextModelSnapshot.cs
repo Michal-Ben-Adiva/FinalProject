@@ -23,11 +23,8 @@ namespace MODELS.Migrations
 
             modelBuilder.Entity("MODELS.Models.CV", b =>
                 {
-                    b.Property<long>("userId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("userId"));
+                    b.Property<string>("userId")
+                        .HasColumnType("text");
 
                     b.Property<string>("education")
                         .IsRequired()
@@ -80,8 +77,9 @@ namespace MODELS.Migrations
                     b.Property<long>("jobId")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("userId")
-                        .HasColumnType("bigint");
+                    b.Property<string>("userId")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("cvJobsId");
 
@@ -116,8 +114,9 @@ namespace MODELS.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<long>("userId")
-                        .HasColumnType("bigint");
+                    b.Property<string>("userId")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("jobId");
 
@@ -126,18 +125,12 @@ namespace MODELS.Migrations
 
             modelBuilder.Entity("MODELS.Models.Users", b =>
                 {
-                    b.Property<long>("userId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("userId"));
+                    b.Property<string>("userId")
+                        .HasColumnType("text");
 
                     b.Property<string>("firstName")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.Property<long>("id")
-                        .HasColumnType("bigint");
 
                     b.Property<int>("isAdmin")
                         .HasColumnType("integer");
